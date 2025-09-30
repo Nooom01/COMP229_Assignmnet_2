@@ -30,6 +30,16 @@ export default function Contact() {
         </div>
       </div>
 
+      <h2 className="form-title">Send me a message!</h2>
+
+      <form className="contact-form">
+        <input type="text" placeholder="First Name" required />
+        <input type="text" placeholder="Last Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
       <style>{`
         .contact-container {
           max-width: 800px;
@@ -88,6 +98,50 @@ export default function Contact() {
 
         .contact-item span {
           color: #666;
+        }
+
+        .form-title {
+          margin-top: 60px;
+          text-align: center;
+          font-size: 1.8em;
+          color: #333;
+          margin-bottom: 20px;
+        }
+
+        .contact-form {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          max-width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+          padding: 10px;
+          font-size: 1em;
+          border: 1px solid #ccc;
+          font-family: inherit;
+        }
+
+        .contact-form textarea {
+          resize: vertical;
+        }
+
+        .contact-form button {
+          padding: 10px;
+          font-size: 1em;
+          background: #333;
+          color: white;
+          border: none;
+          cursor: pointer;
+          font-family: inherit;
+        }
+
+        .contact-form button:hover {
+          background: #555;
         }
 
         @media (max-width: 768px) {
