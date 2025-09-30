@@ -4,7 +4,7 @@ export default function About() {
       <div className="about-content">
         <div className="about-image">
           <img 
-            src="PXL_20241208_033658075.MP.jpg" 
+            src="/PXL_20241208_033658075.MP.jpg" 
             alt="Profile" 
           />
         </div>

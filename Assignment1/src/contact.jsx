@@ -24,8 +24,8 @@ export default function Contact() {
 
         <div className="contact-item">
           <strong>GitHub:</strong>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-            github.com/yourusername
+          <a href="" target="_blank" rel="noopener noreferrer">
+            github.com
           </a>
         </div>
       </div>
