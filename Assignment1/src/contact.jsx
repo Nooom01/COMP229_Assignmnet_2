@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="contact-panel">
         <div className="contact-item">
           <strong>Email:</strong>
-          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          <a href="">annur710@example.com</a>
         </div>
 
         <div className="contact-item">
@@ -17,8 +17,8 @@ export default function Contact() {
 
         <div className="contact-item">
           <strong>LinkedIn:</strong>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-            linkedin.com/in/yourprofile
+          <a href="" target="_blank" rel="noopener noreferrer">
+            linkedin.com
           </a>
         </div>
 
